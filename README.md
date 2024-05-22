@@ -2,9 +2,10 @@
 
 ## Environment
 
-rules_go: 0.48
-bazel: 7.1.2
-OS: Linux (Debian-based derivative)
+* rules_go: 0.48
+  * Also reproduces at latest rules_go commit (354a98f4acf2333b7603ede50dd5fbc20ae315b1)
+* bazel: 7.1.2
+* OS: Linux (Debian-based derivative)
 
 ## Overview
 

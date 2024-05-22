@@ -3,4 +3,10 @@ module(
   version = "0.0.1",
 )
 
-bazel_dep(name = "rules_go", version = "0.43.0")
+bazel_dep(name = "rules_go", version = "0.48.0")
+
+git_override(
+  module_name = "rules_go",
+  remote = "https://github.com/bazelbuild/rules_go.git",
+  commit = "354a98f4acf2333b7603ede50dd5fbc20ae315b1",
+)
