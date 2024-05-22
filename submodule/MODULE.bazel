@@ -1,0 +1,10 @@
+module(
+  name = "submodule",
+  version = "0.0.1",
+)
+
+bazel_dep(name = "maybe_rules_go_proto_bug", version = "0.0.1")
+local_path_override(
+  module_name = "maybe_rules_go_proto_bug",
+  path = "../",
+)
